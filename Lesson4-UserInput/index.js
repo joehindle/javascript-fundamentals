@@ -8,9 +8,7 @@ easyWay = prompt("What is your name?"); // This will show a dialog box asking fo
 console.log(`Hello, ${easyWay}!`); // This will print the input to the console
 
 // HARD WAY
-document.getElementById("myButton").addEventListener("click", function() {
-    const input = document.getElementById("myInput").value; // Get the value from the textbox
-    console.log(`You entered: ${input}`); // Print the input to the console
+document.getElementById("myButton").addEventListener("click", function () {
+    const value = document.getElementById("myInput").value
+    document.getElementById("myh1").innerText=value
 });
-
-
