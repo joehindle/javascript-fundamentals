@@ -4,6 +4,7 @@
 // 2. HARD WAY = HTML textbox
 
 
+// EASY WAY
 easyWay = prompt("What is your name?"); // This will show a dialog box asking for input
 console.log(`Hello, ${easyWay}!`); // This will print the input to the console
 
